@@ -553,11 +553,12 @@ section#clients {
 
 /* About */
 .about-sec {
-  margin: 1rem 0;
+  margin-bottom: 2rem;
+  margin-top: 11rem;
+ 
   position: relative;
   color: #fff;
-  padding: 2rem 0;
-
+  padding: 8rem 0;
 }
 
 .about-sec::after {
@@ -725,7 +726,7 @@ a.nav-link:hover {
 .services-sec {
   margin: 3rem 0;
   position: relative;
-  padding: 3rem 0;
+  padding: 8rem 0;
 }
 
 .services-sec:before {
@@ -775,6 +776,7 @@ a.nav-link:hover {
 }
 
 .service-title {
+  padding-top: 26px;
   text-align: center;
   padding-bottom: 30px;
   position: relative;
@@ -803,6 +805,7 @@ a.nav-link:hover {
 
 /* portfolio */
 section#portfolio {
+  padding-top: 9rem;
   margin: 1rem;
 }
 .portfolio-title {
@@ -838,7 +841,13 @@ section#portfolio {
   
   
 }
-
+.portfolio-info p {
+  color: #fff;
+}
+.portfolio-info h4 {
+  color: #fff;
+  font-size: 1.5rem;
+}
 .portfolio .portfolio-wrap::before {
   content: "";
   background: rgba(17, 17, 17, 0.6);
@@ -911,7 +920,7 @@ section#portfolio {
   margin: 0;
   position: relative;
   color: #fff;
-  padding: 3rem 0;
+  padding: 6rem 0;
 }
 
 .pricing-sec:before {
@@ -1130,6 +1139,7 @@ section {
 }
 
 .team-title {
+  padding-top: 30px;
   text-align: center;
   color: #fff;
   margin: 2rem 0;
@@ -1232,10 +1242,10 @@ section {
 }
 
 /* contact  */
-.section-title {
+.section-title-contact {
+  margin-top: 70px;
   text-align: center;
   padding-bottom: 30px;
-  
 }
 .section-title h2 {
   font-size: 2rem;
@@ -1343,7 +1353,10 @@ section {
 
   font-family: "Raleway", sans-serif;
 }
+.footer-bot{
+  padding: 18px 0;
 
+}
 .footer-top h4 {
   font-size: 1.2rem;
   font-weight: 700;
@@ -1494,10 +1507,12 @@ section {
 /* Tab View */
 @media (min-width: 767px) and (max-width:1024px) {
   .banner-sec {
+    justify-content: center;
+    display: flex;
+    align-items: center;
     text-align: center;
-    padding-top: 8rem;
     background-position: center;
-  }
+}
 
   .banner-sec h1 {
     font-size: 28px;
